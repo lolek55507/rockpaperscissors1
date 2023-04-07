@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>rock/paper/scissors</title>
+</head>
+<body>
+    <p>You have won: <span id="yourwins"></span></p>
+    <h1>Result: <span id="Result"></span></h1>
+    <div class="computer-choice somestyle" id="computerchoice"></div>
+    <div class="yourchoice somestyle" id="yourchoice"></div>
+    <div class="user_options_container">
+        <div class="option" id="optionA" onclick="clclclA()"><img src="rockimage.png" alt="rock"></div>
+        <div class="option" id="optionB" onclick="clclclB()"><img src="papperimage.png" alt="paper"></div>
+        <div class="option" id="optionC" onclick="clclclC()"><img src="scissorsimage.png" alt="scissors"></div>
+
+    </div>
+    <button onclick="checkForWin()">Play</button>
+
+    <script src="app.js"></script>
+
+</body>
+</html>

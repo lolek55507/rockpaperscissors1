@@ -1,0 +1,47 @@
+body {
+    background-color: green;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.user_options_container {
+    width: 80%; 
+    height: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+    margin-top: 20px;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+.useroptionclicked {
+    border: 2px solid white;
+}
+.yourchoice {
+    height: 200px;
+    width: 25%;
+    border: 2px solid white;
+    margin-bottom: 40px;
+
+}
+.computer-choice {
+    height: 200px;
+    width: 25%;
+    border: 2px solid white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.option {
+    cursor: pointer;
+}
+
+.somestyle {
+    background-size: contain;
+    background-repeat: no-repeat;
+}
